@@ -1,0 +1,158 @@
+
+h3{
+    color: rgb(167, 66, 116);
+   
+}
+h2{
+  color: rgb(24, 28, 78);
+ 
+}
+
+
+h1 {
+  text-align: center; 
+font-family: "arial",sans-serif;/*ข้อมูลหลักสูตร*/
+} 
+h1 {
+  text-align: center; 
+} #อันนี้ย้ายตัวหนังสือไว้ตรงกลาง
+
+
+table{
+  width: 100%;
+ margin: 0 auto
+}
+
+
+h1 {
+  text-decoration: underline;
+}
+
+
+#อันนี้เปลี่ยนฟอนดืเดิม
+/* ข้อความปกติ */
+p {
+  font-size: 16px;
+  line-height: 1.6;
+  color: #8b2626;
+}
+
+/* หัวข้อ h2 */
+h2 {
+  font-size: 24px;         /* ใหญ่กว่าปกติ */
+  font-weight: bold;       /* ตัวหนา */
+  line-height: 1.4;        /* ระยะห่างระหว่างบรรทัด */
+  color: #8f4f4f;
+  margin-bottom: 10px;
+}
+
+h1 {
+  font-size: 43px;         /* ใหญ่กว่าปกติ */
+  font-weight: bold;       /* ตัวหนา */
+  line-height: 1.8;        /* ระยะห่างระหว่างบรรทัด */
+  color: #422275;
+  margin-bottom: 10px;
+}
+
+div.gallery {
+  background-color: #c2d2e6; /* สีฟ้าอ่อน */
+ 
+}
+
+
+table
+image {
+  text-align: center; 
+} 
+
+.image-table {
+  margin: 0 auto;
+  border-collapse: collapse;
+}
+
+.image-table td {
+  padding: 10px;
+  text-align: center;
+}
+
+.image-table img {
+  width: 200px;
+  height: auto;
+}
+
+  
+/*  img ทั้งหมดอยู่ใน div ที่มี class ชื่อว่า gallery */
+
+.gallery {
+  display: flex;
+  justify-content: center; /* จัดภาพให้อยู่กึ่งกลางแนวนอน */
+  flex-wrap: wrap;         /* ให้ภาพขึ้นบรรทัดใหม่เมื่อจอแคบ */
+  gap: 16px;               /* ระยะห่างระหว่างภาพ */
+  padding: 16px;
+}
+
+.gallery img {
+  width: 100%;
+  max-width: 200px; /* จำกัดขนาดสูงสุดของภาพ */
+  height: auto;
+  display: block;
+  border-radius: 20px;
+}
+
+
+
+ img.fullscreen {
+  max-width: 100vw;
+  height: 100vw;
+  object-fit: cover;
+}
+table{
+    width: 100%;
+   margin: 0 auto
+}
+  
+td{text-align: center;
+}
+  
+tbody{background-color: rgb(158, 158, 216);
+}
+.th{
+    background-color: aqua;
+}
+.th2{
+    background-color: brown;
+}
+body {
+    font-family: Arial, sans-serif;
+  }
+  
+  .center {
+    text-align: center;
+  }
+  
+  .styled-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+  }
+  
+  .styled-table th,
+  .styled-table td {
+    border: 1px solid #ddd;
+    padding: 10px;
+    text-align: center;
+  }
+  
+  .styled-table thead th {
+    background-color: #f2f2f2;
+    color: #333;
+  }
+  
+  .styled-table tbody tr:nth-child(even) {
+    background-color: #ffe6e6; /* สีชมพูอ่อน */
+  }
+  
+  .styled-table tbody tr:hover {
+    background-color: #fcdcdc;
+  }
+
